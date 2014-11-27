@@ -9,20 +9,20 @@
 $(function () {
 
 	/**
-	 * @var int _window 	 | Altura da janela do usuario
-	 * @var int _document	 | Altura da pagina inteira
-	 * @var string _url 	 | URL que retornará os registros
-	 * @var ['POST', 'GET']	 | Metodo de envio
-	 * @var int _limit 		 | Limites de registros por requisicao
-	 * @var int _offset		 | Trás os próximos resultados
-	 * @var boolean _control | Para evitar que haja várias requisições desnecessárias
+	 * @var int _window 	| Altura da janela do usuario
+	 * @var int _document 	| Altura da pagina inteira
+	 * @var string _url 	| URL que retornará os registros
+	 * @var ['POST', 'GET']	| Metodo de envio
+	 * @var int _limit 	| Limites de registros por requisicao
+	 * @var int _offset 	| Trás os próximos resultados
+	 * @var boolean _control| Para evitar que haja várias requisições desnecessárias
 	 */
 
-	var _window		= $(window).height();
+	var _window 	= $(window).height();
 	var _document 	= $(document).height();
-	var _url 		= $('#infinity').data('infinity-url');
+	var _url 	= $('#infinity').data('infinity-url');
 	var _method 	= 'POST';
-	var _limit 		= $('#infinity').data('infinity-limit');
+	var _limit 	= $('#infinity').data('infinity-limit');
 	var _offset 	= $('#infinity').data('infinity-offset');
 	var _control 	= true;
 
