@@ -2,7 +2,7 @@ scroll-infinity.js
 ==================
 
 Simples script para conteúdos com rolagem infinita ( notícias, depoimentos, mural de recados )
-Para utilizar basta criar um elemento HTML com o ID "infinity" + alguns atributos que serão utilizados como parametros ( data-infinity-url="", data-infinity-limit="", data-infinity-offset="" )
+Para utilizar basta criar um elemento HTML com o ID "infinity" + atributos que serão utilizados como parametros ( data-infinity-url="", data-infinity-limit="", data-infinity-offset="" )
 
 
 /**
